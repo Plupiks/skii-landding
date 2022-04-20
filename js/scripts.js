@@ -1,4 +1,6 @@
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 // Burger menu
 const burgerMenu = document.querySelector('#showBtn');
