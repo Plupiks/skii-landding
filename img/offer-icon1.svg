@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" fill='#ccc' id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+<g>
+   <path fill="#ccc" d="m19.00133,59.90807c2.46381,-6.2802 4.90933,-12.68718 7.27268,-19.05593c0.71324,3.84339 1.41533,7.74109 2.08803,11.59456c-0.98224,2.53336 -1.94514,5.04465 -2.86257,7.46137l-6.49814,0" />
+   <path fill="#ccc" d="m34.35302,37.32664c-0.70404,-4.33636 -1.39363,-8.75125 -2.0505,-13.12785c1.29395,-3.66636 2.56582,-7.33266 3.78033,-10.89233l0.01173,-0.02616c0.03362,-0.07641 3.39786,-7.61632 6.37558,-7.61632c0.20847,0 0.41311,0.03829 0.60831,0.1127c3.05658,1.17517 0.18491,10.15982 0.15553,10.25037l0.00299,0.002c-3.01777,7.02473 -6.00554,14.18831 -8.88337,21.29758l0,0" />
+   <path fill="#ccc" d="m30.85204,59.90807c-2.76983,-16.55873 -5.9546,-33.23823 -9.46611,-49.57763l-0.00297,-0.02816c-0.01194,-0.09455 -1.14487,-9.45553 2.12864,-10.02697c0.09466,-0.01809 0.19046,-0.02616 0.28486,-0.02616c3.06937,0 5.10144,8.64662 5.12162,8.73516l0.00299,0c2.29412,16.93099 5.02714,34.06122 8.12434,50.92382l-6.19313,0"/>
+</g>
+<script  type="text/javascript">
+  <![CDATA[
+         var c=window.location.search.split('color=')[1]; c=parseInt(c,16); if(!isNaN(c)){c=c.toString(16);var p=document.getElementsByTagName('path');for(var i=0,l=p.length;i<l;i++){var s=p[i].style;s.fill='#'+c;} var p2=document.getElementsByTagName('polygon');for(var i=0,l=p2.length;i<l;i++){var s=p2[i].style;s.fill='#'+c;} var p3=document.getElementsByTagName('circle');for(var i=0,l=p3.length;i<l;i++){var s=p3[i].style;s.fill='#'+c;} }
+  ]]>
+</script>
+</svg>
