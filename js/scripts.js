@@ -62,12 +62,13 @@ for (let anchor of anchors) {
 }
 
 // Прокрутка до першого блоку стрілкою
-const arrowScroll = document.querySelector('.arrow-down');
+const arrowScroll = document.querySelector('.hero--arrow-down');
 arrowScroll.addEventListener('click', (e) => {
+  console.log('click', arrowScroll);
   e.preventDefault;
-  document.querySelector('#rental').scrollIntoView({
+  document.querySelector('#s-rental').scrollIntoView({
     behavior: 'smooth',
-    block: 'center',
+    block: 'start',
   });
 });
 

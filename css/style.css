@@ -131,7 +131,8 @@ a.active {
   align-items: flex-end; }
 
 .hero--arrow-down {
-  padding-bottom: 45px; }
+  padding-bottom: 45px;
+  cursor: pointer; }
   .hero--arrow-down i {
     color: #393939; }
     .hero--arrow-down i:hover {
