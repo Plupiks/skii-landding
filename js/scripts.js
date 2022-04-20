@@ -56,10 +56,17 @@ for (let anchor of anchors) {
     e.preventDefault();
 
     const blockID = anchor.getAttribute('href');
-    document.querySelector('' + blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'center',
-    });
+    if (window.matchMedia('(min-width: 900px)').matches) {
+      document.querySelector('' + blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      });
+    } else {
+      document.querySelector('' + blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
   });
 }
 
