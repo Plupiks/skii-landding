@@ -47,7 +47,7 @@ links.forEach(function (el) {
 });
 
 // Плавна прокрутка до блоку
-const anchors = document.querySelectorAll('a[href*="#"]');
+const anchors = document.querySelectorAll('a[href*="#s-"]');
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
@@ -60,6 +60,16 @@ for (let anchor of anchors) {
     });
   });
 }
+
+// Прокрутка до першого блоку стрілкою
+const arrowScroll = document.querySelector('.arrow-down');
+arrowScroll.addEventListener('click', (e) => {
+  e.preventDefault;
+  document.querySelector('#rental').scrollIntoView({
+    behavior: 'smooth',
+    block: 'center',
+  });
+});
 
 // Активний клас для навігації при скролі
 const observer = new IntersectionObserver(
