@@ -56,7 +56,7 @@ for (let anchor of anchors) {
     const blockID = anchor.getAttribute('href');
     document.querySelector('' + blockID).scrollIntoView({
       behavior: 'smooth',
-      block: 'start',
+      block: 'center',
     });
   });
 }
@@ -77,7 +77,7 @@ const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        document.querySelectorAll('a[href*="#"]').forEach((link) => {
+        document.querySelectorAll('a[href*="#s-"]').forEach((link) => {
           // Забираємо хештег і зрівнюємо id
           if (link.getAttribute('href').replace('#', '') === entry.target.id) {
             link.classList.add('active');
